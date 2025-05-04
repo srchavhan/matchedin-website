@@ -1,134 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>MatchedIn — Connect Better</title>
-
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
-
-  <style>
-    * { margin: 0; padding: 0; box-sizing: border-box; }
-    body { font-family: 'Poppins', sans-serif; line-height: 1.6; background: #f5f7fa; color: #333; }
-
-    header {
-      background: linear-gradient(135deg, #4a90e2, #007aff);
-      color: white;
-      padding: 100px 20px 60px;
-      text-align: center;
-    }
-    header h1 { font-size: 3rem; margin-bottom: 20px; }
-    header p { font-size: 1.2rem; max-width: 600px; margin: 0 auto; }
-
-    nav {
-      background: white;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-      padding: 15px 30px;
-      text-align: center;
-    }
-
-    nav a {
-      color: #007aff;
-      text-decoration: none;
-      margin: 0 15px;
-      font-weight: 600;
-      transition: color 0.3s;
-    }
-
-    nav a:hover {
-      color: #004d99;
-    }
-
-    section {
-      padding: 80px 20px;
-      text-align: center;
-    }
-
-    h2 { font-size: 2rem; margin-bottom: 20px; color: #007aff; }
-    p { font-size: 1rem; max-width: 700px; margin: 0 auto 30px; }
-
-    .buttons a {
-      display: inline-block;
-      margin: 10px;
-      padding: 14px 28px;
-      background: #007aff;
-      color: white;
-      border-radius: 50px;
-      text-decoration: none;
-      font-weight: 600;
-      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-      transition: background 0.3s, transform 0.2s;
-    }
-
-    .buttons a:hover {
-      background: #005bb5;
-      transform: translateY(-2px);
-    }
-
-    footer {
-      background: #333;
-      color: white;
-      padding: 30px 20px;
-      text-align: center;
-      font-size: 0.9rem;
-    }
-
-    footer a {
-      color: #4a90e2;
-      text-decoration: none;
-      margin: 0 8px;
-    }
-
-    footer a:hover {
-      text-decoration: underline;
-    }
-
-    @media (max-width: 600px) {
-      header h1 { font-size: 2.2rem; }
-      h2 { font-size: 1.6rem; }
-    }
-  </style>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>MatchedIn - Find Your Perfect Match</title>
+<link rel="stylesheet" href="styles/style.css"/>
 </head>
 <body>
 
-<nav>
-  <a href="#about">About</a>
-  <a href="#download">Download</a>
-  <a href="#legal">Legal</a>
-</nav>
-
 <header>
-  <h1>Welcome to MatchedIn</h1>
-  <p>The smartest way to connect, network, and collaborate effortlessly. Experience the future of meaningful professional relationships.</p>
+  <div class="logo">Matched<span>In</span></div>
+  <nav>
+    <a href="#features">Features</a>
+    <a href="#pricing">Pricing</a>
+    <a href="#contact">Contact</a>
+  </nav>
 </header>
 
-<section id="about">
-  <h2>About MatchedIn</h2>
-  <p>MatchedIn helps you discover, connect, and engage with like-minded professionals. From smart matchmaking to secure conversations, we empower meaningful business and career growth.</p>
-</section>
-
-<section id="download">
-  <h2>Download Our App</h2>
-  <p>Start networking better today. Download MatchedIn on your preferred platform.</p>
-  <div class="buttons">
-    <a href="https://play.google.com/store/apps/details?id=com.datingLife.com.dating" target="_blank">Get it on Play Store</a>
-    <a href="https://www.apple.com/app-store/" target="_blank">Download on App Store</a>
+<section class="hero">
+  <img src="images/cover.jpg" alt="Cover Image">
+  <div class="hero-text">
+    <h1>Find Your Perfect Match</h1>
+    <p>Join MatchedIn and meet people who are right for you.</p>
+    <div class="buttons">
+      <a href="#" class="btn">Download on Play Store</a>
+    </div>
   </div>
 </section>
 
-<section id="legal">
-  <h2>Legal</h2>
-  <p>Learn more about how we protect your data and set community guidelines.</p>
-  <div class="buttons">
-    <a href="terms.html">Terms & Conditions</a>
-    <a href="privacy.html">Privacy Policy</a>
+<section id="features" class="cards-section">
+  <h2>App Features</h2>
+  <div class="cards-container">
+    <div class="card">
+      <img src="images/card1.jpg" alt="Nearby Matches">
+      <h3>Nearby Matches</h3>
+      <p>Find people near your location instantly.</p>
+    </div>
+    <div class="card">
+      <img src="images/card2.jpg" alt="Messaging">
+      <h3>Instant Messaging</h3>
+      <p>Chat freely and get to know your matches.</p>
+    </div>
+    <div class="card">
+      <img src="images/card3.jpg" alt="Filters">
+      <h3>Smart Filters</h3>
+      <p>Filter by interests, location, and preferences.</p>
+    </div>
   </div>
 </section>
 
-<footer>
-  &copy; 2025 MatchedIn. All rights reserved.<br>
-  <a href="terms.html">Terms</a> | <a href="privacy.html">Privacy</a>
+<section id="pricing" class="pricing">
+  <h2>Affordable Subscription</h2>
+  <p>Only ₹99/month or ₹999/year for unlimited access!</p>
+</section>
+
+<footer id="contact">
+  <p>&copy; 2025 MatchedIn | <a href="#">Terms</a> | <a href="#">Privacy</a> | <a href="#">Contact</a></p>
 </footer>
 
 </body>
