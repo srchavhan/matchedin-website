@@ -110,3 +110,33 @@ footer a {
     width: 90%;
   }
 }
+.intro-card {
+  background: #ffe3ec;
+  margin: -20px auto 40px;
+  padding: 30px 20px;
+  max-width: 900px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.intro-card h1 {
+  margin-bottom: 10px;
+  color: #ff4d6d;
+  font-size: 2rem;
+}
+
+.intro-card p {
+  margin-bottom: 20px;
+  font-size: 1.2rem;
+}
+
+.btn-large {
+  background: #ff4d6d;
+  color: white;
+  padding: 12px 30px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
