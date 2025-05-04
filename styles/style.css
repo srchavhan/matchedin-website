@@ -38,6 +38,7 @@ nav a {
   height: 300px;
   object-fit: cover;
 }
+
 .hero-text {
   position: absolute;
   top: 30%;
@@ -47,12 +48,15 @@ nav a {
   padding: 20px;
   border-radius: 10px;
 }
+
 .hero-text h1 {
   margin: 0 0 10px;
 }
+
 .hero-text p {
   margin-bottom: 15px;
 }
+
 .btn {
   background: #fff;
   color: #ff4d6d;
@@ -65,12 +69,14 @@ nav a {
   text-align: center;
   padding: 40px 20px;
 }
+
 .cards-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 20px;
 }
+
 .card {
   background: #ffe3ec;
   border-radius: 15px;
@@ -79,23 +85,27 @@ nav a {
   padding: 20px;
   text-align: center;
 }
+
 .card img {
   width: 100%;
   border-radius: 10px;
   margin-bottom: 15px;
 }
+
 .pricing {
   background: #ff4d6d;
   color: white;
   padding: 40px 20px;
   text-align: center;
 }
+
 footer {
   background: #222;
   color: #eee;
   text-align: center;
   padding: 15px;
 }
+
 footer a {
   color: #ff4d6d;
   text-decoration: none;
@@ -110,6 +120,7 @@ footer a {
     width: 90%;
   }
 }
+
 .intro-card {
   background: #ffe3ec;
   margin: -20px auto 40px;
@@ -120,43 +131,22 @@ footer a {
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
 
-.intro-card {
-  background: linear-gradient(135deg, #ffccd5, #ffe3ec);
-  margin: 40px auto;
-  padding: 50px 25px;
-  max-width: 900px;
-  border-radius: 20px;
-  text-align: center;
-  box-shadow: 0 8px 24px rgba(0,0,0,0.12);
-}
-
 .intro-card h1 {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   color: #ff4d6d;
-  font-size: 2.8rem;
-  font-weight: 700;
+  font-size: 2rem;
 }
 
 .intro-card p {
-  margin-bottom: 30px;
-  font-size: 1.4rem;
-  color: #333;
+  margin-bottom: 20px;
+  font-size: 1.2rem;
 }
 
 .btn-large {
   background: #ff4d6d;
   color: white;
-  padding: 16px 40px;
+  padding: 12px 30px;
   border-radius: 30px;
   text-decoration: none;
-  font-size: 1.3rem;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-  transition: all 0.3s ease;
+  font-size: 1.1rem;
 }
-
-.btn-large:hover {
-  background: #e60040;
-  box-shadow: 0 6px 16px rgba(0,0,0,0.2);
-}
-
-
